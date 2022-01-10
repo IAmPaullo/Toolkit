@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/TaskList/Editor/EditorWindow/TaskItem.uss?fileID=7433441132597879392&amp;guid=729e76f3c29711143ad2046bb0421221&amp;type=3#TaskItem" />
+    <ui:VisualElement name="taskItem" class="taskItemUSS" style="flex-direction: row;">
+        <ui:Toggle />
+        <ui:Label text="Label" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>
